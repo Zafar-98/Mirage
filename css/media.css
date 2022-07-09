@@ -1,0 +1,127 @@
+@media (max-width: 1320px){
+    .main__subscribe-content{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header__content{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+    }
+  .main__wrapper{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .main__teamwork-wrapper{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .main__testimonial-wrapper{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .main__brands-logo{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+ .main__content{
+     flex-wrap: wrap;
+     width: 100%;
+     row-gap: 30px;
+ }
+ .nav__img{
+     width: 100%;
+ }
+ .nav__img2{
+     width: 100%;
+ }
+
+
+    
+}
+
+@media (max-width:1140px){
+  
+    .header__content{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__content{
+        flex-wrap: wrap;
+       width: 100%;
+      
+    }
+   
+}
+@media(max-width:992px){
+    .header__nav-menu{
+        min-height: 100vh;
+        position: fixed;
+        width: 100%;
+        top: -100%;
+        left: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        transition: .4s;
+    
+    }
+    .header__nav-menu.active{
+        top: 0;
+    }
+
+    .nav__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 1;
+        row-gap: 30px;
+    }
+    .header__menu{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .header__menu-line{
+        width: 100%;
+        height: 2px;
+        background: var(--ternary-color);
+        position: relative;
+        z-index: 1000;
+       
+    }
+    .header__menu-line::before,
+    .header__menu-line::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+    .header__menu-line::before{
+        top: -10px;
+    }
+    .header__menu-line::after{
+        top: 10px;
+    }
+}

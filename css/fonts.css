@@ -1,0 +1,21 @@
+@font-face{
+    src: url(../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+    font-weight: 700;
+    font-family: "Josefin Sans";
+}
+@font-face{
+    src: url(../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf);
+    font-weight: 400;
+    font-family: "Proxima Nova";
+}
+@font-face{
+    src: url(../fonts/Circular\ Std/CircularStd-Bold.ttf);
+    font-weight: 700;
+    font-family: "Circular Std";
+}
+
+@font-face{
+    src: url(../fonts/Circular\ Std/CircularStd-Medium.ttf);
+    font-weight: 500;
+    font-family: "Circular Std";
+}
